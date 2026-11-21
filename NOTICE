@@ -1,0 +1,15 @@
+XiaoBu-Swipe（小布输入法下滑快捷键）
+Copyright 2026 XiaoBu-Swipe contributors
+
+本产品包含基于下列项目衍生的代码与设计，遵循 Apache License 2.0：
+
+  WeType-Swipe
+  https://github.com/waoui/WeType-Swipe
+  Copyright waoui
+  Licensed under the Apache License, Version 2.0
+
+运行时依赖（构建期 compileOnly，仓库内以 AAR 形式提供）：
+
+  libxposed API 102
+  https://github.com/libxposed/api
+  Licensed under the Apache License, Version 2.0

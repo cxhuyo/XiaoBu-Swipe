@@ -1,0 +1,19 @@
+// 工程入口：仓库根目录即 Android 工程根目录，直接用 Android Studio 打开即可
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "XiaoBu-Swipe"
+include ':app'

@@ -1,0 +1,29 @@
+name: 功能建议
+description: 提出新动作、新交互或体验改进建议
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你希望在什么情况下用到这个功能
+      placeholder: 例如：希望在九宫格模式下也能快速打开常用语
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的交互
+      description: 描述你设想的操作方式与结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 其他可选方案
+      description: 是否有替代做法，或现有功能为何不能满足
+    validations:
+      required: false

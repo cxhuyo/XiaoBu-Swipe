@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小布输入法下滑快捷键</string>
+    <string name="app_description">小布输入法 26 键与九宫格下滑快捷操作模块，支持编辑导航、原生剪贴板面板、自定义文本、系统输入法切换和内置设置</string>
+    <string name="about_title">关于</string>
+</resources>

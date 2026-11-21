@@ -1,0 +1,16 @@
+# 统一换行，避免 Windows / Linux 混合提交产生整文件 diff
+* text=auto eol=lf
+
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+gradlew text eol=lf
+
+# 二进制
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.jar   binary
+*.apk   binary
+*.zip   binary

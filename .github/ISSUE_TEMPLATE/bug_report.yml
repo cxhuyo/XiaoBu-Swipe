@@ -1,0 +1,72 @@
+name: Bug 反馈
+description: 报告模块功能异常、手势失效或设置不生效等问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！提交前请先确认已阅读 README 的「常见问题」，并尽量提供完整日志，便于定位。
+
+  - type: input
+    id: module_version
+    attributes:
+      label: 模块版本
+      description: 设置页标题下方或关于页页脚显示的版本号
+      placeholder: 例如 2.0.0（versionCode 51）
+    validations:
+      required: true
+
+  - type: input
+    id: keyboard_version
+    attributes:
+      label: 小布输入法版本
+      placeholder: 例如 1.9.18.17-mkt
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: 设备与系统
+      placeholder: 例如 OPPO Pad 3 / ColorOS 16.0.1 / Android 16
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按顺序描述，越具体越好
+      placeholder: |
+        1. 在 26 键页把 R 键上滑绑定为「粘贴」
+        2. 保存并应用配置
+        3. 在微信输入框内上滑 R
+        4. 实际未粘贴
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果与实际结果
+      placeholder: 期望：粘贴剪贴板内容；实际：输入了数字 4
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志
+      description: LSPosed 管理器 → 日志，筛选 `xiaobuswipe` 后粘贴相关片段
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息
+      description: 截图、录屏、其他模块共存情况等
+    validations:
+      required: false
