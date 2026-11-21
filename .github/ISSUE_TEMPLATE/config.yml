@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用问题 / 配置求助
+    url: https://github.com/cxhuyo/XiaoBu-Swipe/discussions
+    about: 手势怎么配、某个键不生效之类的使用问题，请先到 Discussions 搜索或提问。
+  - name: 小布输入法本身的问题
+    url: https://www.coolapk.com/u/28792620
+    about: 输入法原生功能（词库、皮肤、云同步）异常与本模块无关。
